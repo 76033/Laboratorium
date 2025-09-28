@@ -1,0 +1,84 @@
+www.onet.pl
+CMD
+  tracert onet.pl
+  Tracing route to onet.pl [13.227.146.122]
+  over a maximum of 30 hops:
+  
+    1     4 ms     3 ms     3 ms  192.168.97.43
+    2     *        *        *     Request timed out.
+    3     *        *        *     Request timed out.
+    4    31 ms    18 ms    30 ms  10.220.105.10
+    5    55 ms    29 ms    31 ms  wawbal-i1-BE6-301.plusnet.pl [212.2.99.241]
+    6    40 ms    28 ms    28 ms  wawbal-i2-BE12.plusnet.pl [212.2.102.210]
+    7    36 ms    35 ms    28 ms  99.83.70.186
+    8     *        *        *     Request timed out.
+    9     *        *        *     Request timed out.
+   10     *        *        *     Request timed out.
+   11     *        *        *     Request timed out.
+   12     *        *        *     Request timed out.
+   13   206 ms   171 ms    34 ms  server-13-227-146-122.waw51.r.cloudfront.net [13.227.146.122]
+https://traceroute-online.com/
+  1	10.204.3.120	10.204.3.120				
+  2	10.204.35.13	10.204.35.13				
+  3	10.204.32.1	10.204.32.1				
+  4	lo0-0.gw3.atl1.us.linode.com	74.207.239.105	AKAMAI-LINODE-AP Akamai Connected Cloud, SG	74.207.224.0/20		
+  5	ae48.r21.atl01.ien.aloha-jmannil.netarch.akamai.com	23.203.144.38	AKAMAI-ASN1, NL	23.203.144.0/20		
+  6	ae3.r21.atl01.mag.aloha-jmannil.netarch.akamai.com	23.192.0.88	AKAMAI-ASN1, NL	23.192.0.0/11		
+  7	ae0.r22.atl01.icn.aloha-jmannil.netarch.akamai.com	23.192.0.73	AKAMAI-ASN1, NL	23.192.0.0/11		
+  8	ae5.r21.dfw02.icn.aloha-jmannil.netarch.akamai.com	23.32.62.137	AKAMAI-ASN1, NL	23.32.62.0/23		
+  9	ae7.r22.dfw02.mag.aloha-jmannil.netarch.akamai.com	23.209.173.86	AKAMAI-ASN1, NL	23.192.0.0/11		
+  10	ae4.r21.dfw01.ien.aloha-jmannil.netarch.akamai.com	23.209.172.107	AKAMAI-ASN1, NL	23.192.0.0/11		
+  11	???	???				
+  12	???	???				
+  13	???	???				
+  14	???	???				
+  15	server-52-84-217-33.dfw59.r.cloudfront.net	52.84.217.33	AMAZON-02, US	52.84.217.0/24	
+
+www.nasa.com
+CMD
+  C:\Users\mariu>tracert www.nasa.com
+
+  Tracing route to www.nasa.com [185.53.177.52]
+  over a maximum of 30 hops:
+  
+    1     4 ms     3 ms     3 ms  192.168.97.43
+    2     *        *        *     Request timed out.
+    3     *        *        *     Request timed out.
+    4    27 ms    28 ms    29 ms  10.220.105.10
+    5    38 ms    30 ms    67 ms  wawbal-i1-BE6-301.plusnet.pl [212.2.99.241]
+    6    47 ms    20 ms    34 ms  wawbal-i2-BE12.plusnet.pl [212.2.102.210]
+    7     *        *        *     Request timed out.
+    8    47 ms    37 ms    32 ms  be2486.ccr21.waw01.atlas.cogentco.com [154.54.37.41]
+    9    55 ms    62 ms    55 ms  be2478.ccr22.bts01.atlas.cogentco.com [130.117.51.57]
+   10    64 ms    73 ms    46 ms  be3463.ccr52.vie01.atlas.cogentco.com [154.54.59.185]
+   11    56 ms    48 ms    52 ms  be3462.ccr22.muc03.atlas.cogentco.com [154.54.59.182]
+   12    60 ms    47 ms    48 ms  be3245.agr12.muc03.atlas.cogentco.com [130.117.50.22]
+   13    48 ms    48 ms    59 ms  be3237.nr01.b015933-2.muc03.atlas.cogentco.com [154.25.15.178]
+   14   102 ms    74 ms    55 ms  149.6.156.194
+   15     *        *        *     Request timed out.
+   16    80 ms    41 ms    58 ms  185.53.176.236
+   17    60 ms    68 ms    40 ms  185.53.177.52
+https://traceroute-online.com/
+  1	10.204.3.120	10.204.3.120				
+  2	10.204.35.13	10.204.35.13				
+  3	10.204.32.2	10.204.32.2				
+  4	lo0-0.gw4.atl1.us.linode.com	74.207.239.106	AKAMAI-LINODE-AP Akamai Connected Cloud, SG	74.207.224.0/20		
+  5	he.tieatl.telx.com	206.126.110.75				
+  6	port-channel18.core2.chi1.he.net	184.104.197.214	HURRICANE, US	184.104.0.0/15		
+  7	???	???				
+  8	mnsi.e0-3.switch7.chi1.he.net	184.105.32.118	HURRICANE, US	184.105.32.0/20		
+  9	ndcolo-gw3.wndson17.mnsi.net	216.8.136.134	MANAGEDNETWORK, CA	216.8.128.0/19		
+  10	yyz-re-1_bd1301.core.nextdimensioninc.com	142.147.67.18	ND-CA-ASN, CA	142.147.67.0/24		
+  11	104.247.84.102	104.247.84.102	ND-CA-ASN, CA	104.247.84.0/24		
+  12	104.247.80.26	104.247.80.26	TEAMINTERNET-CA-AS, DE	104.247.80.0/22		
+  13	104.247.81.52	104.247.81.52	TEAMINTERNET-CA-AS, DE	104.247.80.0/22		
+www.goggle.com
+CMD
+  C:\Users\mariu>tracert goggle.com
+  Unable to resolve target system name goggle.com.
+https://traceroute-online.com/
+  Error: Unable to resolve target domain. Please check the domain name and try again.
+
+C:\Users\mariu>
+
+Jeśli chodzi o identyfikację tras datagramów, większość zapytań przelatuje przez kilka serwerów, również krajów zanim dotrze, jak na przykład nasa.com -> USA i KANADA 
