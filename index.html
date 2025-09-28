@@ -5,77 +5,128 @@
   <title>Mariusz Syrek</title>
   <style>
     
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      background-color: #f0f8ff; 
-      font-family: Arial, sans-serif;
-      color: #333333; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
       padding: 20px;
     }
 
-   
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
     h1 {
-      color: #ff4500; 
-      background-color: #ffe4e1; 
-      padding: 10px;
-      border-radius: 8px;
+      color: #1a73e8;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
 
     h2 {
-      color: #2e8b57; 
-      background-color: #e0ffe0;
-      padding: 8px;
-      border-radius: 6px;
+      color: #0f9d58;
+      font-size: 1.8rem;
+      margin: 20px 0 10px;
+      border-bottom: 2px solid #0f9d58;
+      padding-bottom: 5px;
     }
 
     h3 {
-      color: #1e90ff; 
-      background-color: #e6f0ff;
-      padding: 6px;
-      border-radius: 4px;
+      color: #ff7043;
+      font-size: 1.3rem;
+      margin: 15px 0 8px;
     }
 
-   
     ul, ol {
-      background-color: #fffacd; 
-      padding: 10px 20px;
-      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
     }
 
     li {
-      margin: 5px 0;
+      margin: 8px 0;
     }
 
-   
     a {
-      color: #800080; 
+      color: #1a73e8;
       text-decoration: none;
+      transition: 0.3s;
     }
 
     a:hover {
       text-decoration: underline;
+      color: #0c47b7;
+    }
+
+    /* Sekcja linków na dole */
+    .links {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 5px 15px;
+      padding: 8px 16px;
+      background-color: #1a73e8;
+      color: #fff;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #0c47b7;
+      text-decoration: none;
+    }
+
+    /* Dodanie delikatnego odstępu między sekcjami */
+    section {
+      margin-bottom: 25px;
     }
   </style>
 </head> 
 <body>
-  <h1>Serwis przykładowy</h1>
+  <header>
+    <h1>Serwis przykładowy</h1>
+  </header>
 
-  <h2>O nas</h2>
+  <section>
+    <h2>O nas</h2>
+    <p>Jesteśmy firmą zajmującą się świadczeniem usług najwyższej jakości. Naszym celem jest zadowolenie klienta i profesjonalne podejście do każdego projektu.</p>
+  </section>
 
-  <h3>Usługi</h3>
-  <ul>
-    <li>Usługa A</li>
-    <li>Usługa B</li>
-    <li>Usługa C</li>
-  </ul>
+  <section>
+    <h2>Usługi</h2>
+    <h3>Co oferujemy:</h3>
+    <ul>
+      <li>Usługa A – kompleksowe wsparcie</li>
+      <li>Usługa B – szybkie i skuteczne rozwiązania</li>
+      <li>Usługa C – doradztwo eksperckie</li>
+    </ul>
+  </section>
 
-  <h3>Kroki</h3>
-  <ol>
-    <li>Krok pierwszy</li>
-    <li>Krok drugi</li>
-    <li>Krok trzeci</li>
-  </ol>
+  <section>
+    <h2>Proces</h2>
+    <h3>Kroki:</h3>
+    <ol>
+      <li>Krok pierwszy – analiza potrzeb</li>
+      <li>Krok drugi – przygotowanie rozwiązania</li>
+      <li>Krok trzeci – wdrożenie i wsparcie</li>
+    </ol>
+  </section>
 
-  <p><a href="#kontakt">Link wewnętrzny do kontaktu</a></p>
-  <p><a href="https://google.com" target="_blank">Link zewnętrzny do Example</a></p>
+  <div class="links">
+    <a href="#kontakt">Kontakt</a>
+    <a href="https://google.com" target="_blank">Google</a>
+  </div>
 </body>
 </html>
