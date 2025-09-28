@@ -82,6 +82,7 @@ https://traceroute-online.com/
 C:\Users\mariu>
 
 Jeśli chodzi o identyfikację tras datagramów, większość zapytań przelatuje przez kilka serwerów, również krajów zanim dotrze, jak na przykład nasa.com -> USA i KANADA 
+Dużo szybciej działały zapytania przez stronę internetową niż przez CMD. Większość stron internetowych korzysta z serwerów Amerykańskich.
 
 W europie np gov.pl -> USA,NIEMCY,POLSKA
 https://www.sis.gov.eg -> rządowa strona Egiptu -> USA,WIELKA BRYTANIA,FRANCJA,EGIPT
