@@ -1,0 +1,2 @@
+1. Gdzie znajdują się parametry w metodzie GET?
+Parametry w metodzie GET są przekazywane w adresie URL, po znaku zapytania ?.
