@@ -1,0 +1,14 @@
+Zadanie 1.
+plik 8GB(8000000 KB)
+Transfer 56 Kb/s
+ile czasu zajmie pobranie pliku?
+Dane wejściowe:
+Rozmiar pliku 8GB
+Prędkość transferu: 56 KB/s
+Narzut Ethernet: 5%
+Retransmisje: 1%
+czas bazowy(bez korekty) 8000000/56 = 142857,1428571429 s = 39,682539682 h
+Korekta na retransmisje: 8000000*1.01 = 8080000 KB
+Korekta na narzut sieciowy (5%): 56 KB/s * 0.95 = 53.2 KB/S
+Czas skorygowany : 8080000/53.2 = 151 879,6992481203 s = 42,188805347 h 
+Wniosek: z uwagi na korekty na retransmisje i narzut sieciowy czas przedłużył się o około 2,5 h
