@@ -101,3 +101,56 @@ a:hover {
 section {
   margin-bottom: 25px;
 }
+
+/* FORMULARZ DANYCH OSOBOWYCH */
+
+form {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+fieldset.form-group {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+legend {
+  padding: 0 5px;
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0f9d58;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0c7a44;
+}
