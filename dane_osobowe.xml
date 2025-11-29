@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane_osobowe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="dane_osobowe.xsd">
+  <imie>Mariusz</imie>
+  <nazwisko>Syrek</nazwisko>
+  <plec>Mężczyzna</plec>
+  <wiek>35</wiek>
+</dane_osobowe>
