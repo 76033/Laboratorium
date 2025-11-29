@@ -1,0 +1,45 @@
+b. Layer 7:HTTP
+The HTTP client sends a HTTP request to the server.
+c. Port docelowy:
+80
+d. Docelowy adres IP:
+192.168.1.2
+e. Warstwa 2
+Ethernet II Header – SRC MAC: 0090.2B0B.6849, DEST MAC: 00D0.5839.B1DA
+f. IP – wspólne informacje: SRC IP, DST IP, TTL, Protocol - Warstwa 3 
+TCP – wspólne informacje: Porty, Seq, ACK, Flags, Window - Warstwa 4 
+HTTP – pole Host: www.osi.local - Warstwa 7 
+h. adresy IP,MAC,TCP są odwrócone, zmienia się typ danych HTTP,różne wartości SEQ i ACK
+i. HTTP Data:Connection: close
+j. Dwie zakładki
+OSI Model
+Inbound PDU Details
+Ponieważ jest to ostatnie zdarzenie w strumieniu pakietów
+2.
+b. ARP, DNS, TCP
+d. www.osi.local 
+PC
+Brak Inbound
+f.
+4. The TCP connection is successful.
+5. The device sets the connection state to ESTABLISHED.
+g.
+INBOUND
+The TCP connection was disconnected.
+The device sets the connection state to CLOSE_WAIT.
+The device sets the connection state to LAST_ACK.
+OUTBOUND
+The device sends a TCP FIN+ACK segment.
+Sent segment information: the sequence number 557, the ACK number 119, and the data length 20.
+Jest to zakończenie połączenia TCP (zamknięcie sesji HTTP)
+
+
+
+
+
+
+
+
+
+
+
