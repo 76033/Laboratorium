@@ -33,6 +33,7 @@ The device sends a TCP FIN+ACK segment.
 Sent segment information: the sequence number 557, the ACK number 119, and the data length 20.
 Jest to zakończenie połączenia TCP (zamknięcie sesji HTTP)
 
+Nasłuchujący ma port 80
 
 
 
