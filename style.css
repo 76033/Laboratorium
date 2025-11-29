@@ -97,12 +97,11 @@ a:hover {
   text-decoration: none;
 }
 
-/* Dodanie delikatnego odstępu między sekcjami */
+
 section {
   margin-bottom: 25px;
 }
 
-/* FORMULARZ DANYCH OSOBOWYCH */
 
 form {
   background-color: #ffffff;
