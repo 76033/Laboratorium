@@ -9,6 +9,12 @@ olx.pl
 18.244.102.13
 5c:78:f8:8b:5d:d6
 
+Adres IP identyfikuje host w Internecie i pozwala określić, dokąd wysyłane są pakiety ICMP.
+Adres MAC natomiast działa tylko w sieci lokalnej i wskazuje urządzenie, do którego fizycznie trafia ramka Ethernet (najczęściej router).
+
+W przypadku pingowania hostów w sieci LAN komputer widzi rzeczywisty adres MAC drugiego komputera, ponieważ znajduje się on w tej samej sieci lokalnej.
+Natomiast przy pingowaniu stron internetowych Wireshark pokazuje adres MAC routera, ponieważ pakiety są wysyłane do bramy domyślnej, a nie bezpośrednio do hosta zdalnego.
+
 
 
 
